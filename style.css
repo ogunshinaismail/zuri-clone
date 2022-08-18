@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero {
+    /* background: #fff2f7; */
+    height: 100vh;
+    background-image: url(./img/IMG-20220803-WA0018.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.hero-container {
+    padding: 6rem 0 0 0;
+}
+
+.logo {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0;
+}
+
+.hero-base {
+    width: 55%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero-base .title {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 0 0 1.9rem 0;
+}
+
+.hero-base .desc {
+    margin-bottom: 3rem;
+    line-height: 24px;
+    color: #514949;
+}
+
+.hero-base .desc a {
+    color: red;
+    text-decoration: none;
+}
+
+.hero-button {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.hero-button .new {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    background: red;
+    border: none;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+}
+
+.hero-button .new:hover {
+    background: none;
+    border: 1px solid red;
+    color: red;
+}
+
+.hero-button .experience {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    background: none;
+    border: 1px solid red;
+    font-size: 15px;
+    color: red;
+    font-weight: 600;
+}
+
+.hero-button .experience:hover {
+    background: red;
+    border: none;
+    color: white;
+}
+
+.services {
+    margin: 7rem 0;
+}
+
+.services-header {
+    width: 33%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.service-zuri-header {
+    color: red;
+    font-size: 15px;
+}
+
+.cater {
+    font-size: 28px;
+    line-height: 37px;
+    margin: 2rem 0;
+    padding-bottom: 1.4rem;
+}
+
+.service-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.dot-img {
+    position: absolute;
+    left: -120px;
+    top: -60px;
+    z-index: -1;
+}
+
+.dot-img-right {
+    position: absolute;
+    right: -120px;
+    top: -60px;
+    z-index: -1;
+}
+
+.service {
+    background: #FFFAFA;
+    padding: 3rem;
+    width: 100%;
+}
+
+.service p {
+    margin: 2.5rem 0;
+    line-height: 27px;
+    color: #514949;
+}
+
+.service a {
+    text-decoration: none;
+    color: red;
+}
+
+footer {
+    width: 90%;
+    margin: 3rem auto 0 auto;
+}
+
+.footer-title {
+    font-weight: 500;
+    margin: 0 0 1rem 0;
+}
+
+.footer-up {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.links a {
+    margin: 0 0 1rem 0;
+    color: red;
+    text-decoration: none;
+}
+
+.address {
+    margin: 0 0 1rem 0;
+}
+
+.contact a {
+    color: red;
+    text-decoration: none;
+}
+
+.social-img {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-img img {
+    width: 20px;
+}
+
+footer hr {
+    margin: 4rem 0 2rem 0;
+}
+
+.credit {
+    margin: 0 0 4rem 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        padding: 1rem 0 4rem 0;
+    }
+
+    .hero-base {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .hero-button .experience {
+        font-size: 15px;
+    }
+
+    .hero-button {
+        gap: 1rem;
+        flex-direction: column;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .services-header {
+        width: 90%;
+    }
+
+    .service-card {
+        grid-template-columns: 100%;
+    }
+
+    .dot-img {
+        display: none;
+    }
+
+    .dot-img-right {
+        display: none;
+    }
+
+    .footer-up {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .footer-title {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .logo {
+        padding: 1rem 0 4rem 0;
+    }
+
+    .hero-base {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .hero-button {
+        gap: 1rem;
+        flex-direction: column;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .services-header {
+        width: 90%;
+    }
+
+    .service-card {
+        grid-template-columns: 100%;
+    }
+
+    .dot-img {
+        display: none;
+    }
+
+    .dot-img-right {
+        display: none;
+    }
+
+    .footer-up {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .footer-title {
+        font-size: 24px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .logo {
+        padding: 4rem 0 4rem 0;
+    }
+
+    .hero-base {
+        width: 75%;
+    }
+
+    .hero-button {
+        gap: 1rem;
+        flex-direction: row;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .services-header {
+        width: 60%;
+        margin: 0 auto 1rem auto;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .hero-base {
+        width: 55%;
+        margin: 0 auto;
+    }
+
+    .service-card {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .dot-img {
+        display: block;
+    }
+
+    .dot-img-right {
+        display: block;
+    }
+
+    .footer-up {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: start;
+        text-align: left;
+        align-items: flex-start;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .hero {
+        /* background: #fff2f7; */
+        height: 100vh;
+    }
+    
+    .hero-container {
+        padding: 6rem 0 0 0;
+    }
+    
+    .logo {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        padding: 4rem 0;
+    }
+    
+    .hero-base {
+        width: 55%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .hero-base .title {
+        font-size: 30px;
+        font-weight: 500;
+        margin: 0 0 1.9rem 0;
+    }
+    
+    .hero-base .desc {
+        margin-bottom: 3rem;
+        line-height: 24px;
+    }
+    
+    .hero-base .desc a {
+        color: red;
+        text-decoration: none;
+    }
+    
+    .hero-button {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+    }
+    
+    .hero-button .new {
+        padding: 1rem 2rem;
+        background: red;
+        border: none;
+        font-size: 15px;
+        color: white;
+        font-weight: 600;
+    }
+    
+    .hero-button .experience {
+        padding: 1rem 2rem;
+        background: none;
+        border: 1px solid red;
+        font-size: 15px;
+        color: red;
+        font-weight: 600;
+    }
+    
+    .services {
+        margin: 7rem 0;
+    }
+    
+    .services-header {
+        width: 43%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .service-zuri-header {
+        color: red;
+        font-size: 15px;
+    }
+    
+    .cater {
+        font-size: 28px;
+        line-height: 37px;
+        margin: 2rem 0;
+    }
+    
+    .service-card {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .service {
+        background: #fff2f7;
+        padding: 3rem;
+    }
+    
+    .service p {
+        margin: 2.5rem 0;
+        line-height: 27px;
+    }
+    
+    .service a {
+        text-decoration: none;
+        color: red;
+    }
+    
+    footer {
+        width: 90%;
+        margin: 3rem auto 0 auto;
+    }
+    
+    .footer-title {
+        font-weight: 500;
+        margin: 0 0 1rem 0;
+    }
+    
+    .footer-up {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1rem;
+    }
+    
+    .links {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .links a {
+        margin: 0 0 1rem 0;
+        color: red;
+        text-decoration: none;
+    }
+    
+    .address {
+        margin: 0 0 1rem 0;
+    }
+    
+    .contact a {
+        color: red;
+        text-decoration: none;
+    }
+    
+    .social-img {
+        display: flex;
+        gap: 1rem;
+    }
+    
+    .social-img img {
+        width: 20px;
+    }
+    
+    footer hr {
+        margin: 4rem 0 2rem 0;
+    }
+    
+    .credit {
+        margin: 0 0 4rem 0;
+        text-align: center;
+        font-weight: 500;
+        font-size: 20px;
+    }
+}

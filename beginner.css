@@ -1,0 +1,1907 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fffdf5;
+}
+
+nav {
+    padding: 1.5rem 2rem;
+    background: #fffdf5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 2rem;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.menu ul li {
+    list-style: none;
+    font-size: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #1b1a20;
+}
+
+.enroll-now {
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+}
+
+.enroll-now img {
+    background: #e7332b;
+    border-radius: 100px;
+    padding: .5rem;
+    position: absolute;
+    margin-left: -39px;
+}
+
+.enroll-now a {
+    font-size: 20px;
+    background: #e7332b;
+    border: none;
+    text-decoration: none;
+    padding: .9rem 2rem;
+    border-radius: 30px;
+    color: #fffdf5;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    gap: 1rem;
+    margin: 6rem auto;
+    width: 90%;
+    justify-items: end;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.img-lady {
+    /* display: flex;
+    align-items: flex-end; */
+    margin-top: 5rem;
+}
+
+.hero-text {
+    text-align: center;
+    position: relative;
+}
+
+.hero-text-search {
+    color: #e7332b;
+    letter-spacing: 1px;
+}
+
+.hero-text-title {
+    font-size: 45px;
+    color: #1b1a20;
+    line-height: 59px;
+    margin: 1rem 0 0 0;
+}
+
+.line {
+    width: 180px !important;
+    position: absolute;
+    right: 7rem;
+}
+
+.hero-text-info {
+    margin: 2rem auto;
+    width: 65%;
+    color: #1b1a20;
+}
+
+.enroll-red {
+    background: #e7332b;
+    color: #fff;
+    border-radius: 30px;
+    padding: .5rem 1.6rem;
+    font-size: 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 5rem;
+}
+
+.hero-text-base {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1wire {
+    width: 40px !important;
+}
+
+.face {
+    margin-top: -5rem;
+}
+
+.wir {
+    margin-top: 5rem;
+    width: 70px !important;
+}
+
+.i4g {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    width: 90%;
+    margin: 1rem auto;
+    gap: 1rem;
+    border-top: 1px solid #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+    padding: 1rem 0;
+}
+
+.i4g p {
+    font-size: 23px;
+    text-align: right;
+    font-weight: 400;
+}
+
+.i4g p a {
+    color: #43b97f;
+}
+
+.why-zuri {
+    width: 90%;
+    margin: 6rem auto;
+}
+
+.why-zuri-header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+}
+
+.section3wire {
+    position: absolute;
+    left: 19rem;
+    top: -3rem;
+}
+
+.why-zuri-header-text p {
+    color: #e7332b;
+    font-size: 23px;
+}
+
+.why-zuri-header-text h2 {
+    color: #1b1a20;
+    font-size: 35px;
+}
+
+.why-zuri-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin: 5rem 0;
+}
+
+.card {
+    background: #fff;
+    border-radius: 25px;
+    padding: 3rem;
+    position: relative;
+}
+
+.card:first-child {
+    background: #e7332b;
+    color: #fff;
+}
+
+.card img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.card h1 {
+    font-size: 45px;
+}
+
+.card h2 {
+    width: 70%;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 47px;
+    margin: 2rem 0;
+}
+
+.card p {
+    margin-bottom: 2rem;
+}
+
+.training {
+    background: #e7332b;
+    color: #fff;
+}
+
+.training-container {
+    width: 85%;
+    margin: 2rem auto;
+    padding: 3rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.training-img {
+    width: 100%;
+}
+
+.training-text {
+    padding: 2rem 0;
+    position: relative;
+}
+
+.get-started {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.high-quality {
+    font-size: 35px;
+    width: 75%;
+    word-spacing: 2px;
+    margin: .6rem 0;
+}
+
+.promise {
+    width: 56%;
+    margin: 2rem 0 2rem 0;
+    word-spacing: 2px;
+}
+
+.enroll-white {
+    background: #fff;
+    color: #e7332b;
+    border-radius: 30px;
+    padding: .5rem 1.6rem;
+    font-size: 18px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.advantages {
+    margin: 3rem 0 5rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.advantages-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    padding: .5rem 1rem;
+}
+
+.advantages-card img {
+    width: 55px;
+}
+
+.advantages-card p {
+    font-weight: 500;
+}
+
+.dot-training {
+    position: absolute;
+    bottom: 0;
+    left: -55px;
+    width: 120px;
+}
+
+.scope {
+    width: 90%;
+    margin: 7rem auto;
+}
+
+.scope-header {
+    width: 48%;
+}
+
+.scope-header p {
+    color: #e7332b;
+    font-size: 23px;
+}
+
+.scope-header h2 {
+    font-size: 40px;
+    color: #1b1a20;
+    font-weight: 700;
+}
+
+.section6wire {
+    display: flex;
+    justify-content: center;
+}
+
+.scope-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin: 1rem 0;
+}
+
+.scope-card {
+    background: #fff;
+    border-radius: 30px;
+    padding: 2rem;
+}
+
+.scope-card h3 {
+    color: #1b1a20;
+    font-weight: 600;
+}
+
+.stack-image {
+    margin: 1.3rem 0;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.stack-image img {
+    width: 50px;
+}
+
+.scope-card p {
+    margin: 2rem 0 0 0;
+}
+
+.enroll-button {
+    text-align: center;
+    margin: 6rem 0;
+}
+
+.scope-btn {
+    letter-spacing: normal;
+}
+
+.faq {
+    width: 70%;
+    margin: auto;
+    position: relative;
+}
+
+.faq .section7wire {
+    position: absolute;
+    top: -4rem;
+    left: -4rem;
+}
+
+.faq-header {
+    text-align: center;
+}
+
+.faq-header p {
+    color: #e7332b;
+    font-size: 25px;
+}
+
+.faq-header h2 {
+    font-size: 44px;
+    color: #1b1a20;
+}
+
+.faq-container {
+    margin: 4rem 0;
+}
+
+.tweet-at-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.tweet-at-us p {
+    color: #1b1a20;
+    font-size: 18px;
+}
+
+.tweet-at-us a {
+    background: #e7332b;
+    color: #fff;
+    padding: .5rem 2rem;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.accordion {
+    background: none;
+    cursor: pointer;
+    padding: 1.6rem 18px;
+    width: 100%;
+    border: 1px solid #b4b4b4;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    /* background-color: white; */
+    max-height: 0;
+    border: 1px solid #b4b4b4;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.program-structure {
+    width: 75%;
+    margin: 6rem auto;
+    position: relative;
+}
+
+.section7wire {
+    margin-left: 4rem;
+}
+
+.section7star {
+    position: absolute;
+    right: 7rem;
+    top: 3rem;
+}
+
+.program-structure-header {
+    text-align: center;
+}
+
+.program-structure-header p:first-child {
+    color: #e7332b;
+    font-size: 24px;
+}
+
+.program-structure-header h2 {
+    color: #1b1a20;
+    font-size: 39px;
+    font-weight: 600;
+}
+
+.program-structure-header p:last-child {
+    font-size: 17px;
+    margin: 1.5rem 0;
+    color: #1b1a20;
+}
+
+.program-structure-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin: 6rem 0;
+}
+
+.program-structure-card {
+    background: #1b1a20;
+    color: #fff;
+    padding: 3rem 4rem;
+    border-radius: 35px;
+    position: relative;
+}
+
+
+
+.program-structure-card img {
+    position: absolute;
+    bottom: 4rem;
+    right: 2rem;
+}
+
+.program-structure-card h1 {
+    font-size: 31px;
+}
+
+.program-structure-card ul {
+    margin-left: 1rem;
+}
+
+.requirement {
+    margin-top: 1rem;
+}
+
+.available-tracks {
+    margin: 1.5rem 0;
+}
+
+.phases {
+    margin-bottom: 1.5rem;
+}
+
+.break-into {
+    width: 90%;
+    margin: 6rem auto;
+    background: #e7332b;
+    color: #fff;
+    text-align: center;
+    padding: 6rem 0;
+    border-radius: 35px;
+    position: relative;
+}
+
+.break-into p {
+    font-size: 17px;
+}
+
+.break-into h2 {
+    font-size: 50px;
+    width: 50%;
+    margin: 1rem auto 2rem auto;
+}
+
+.break-into .bend {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.break-into .curve {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.break-into .round {
+    position: absolute;
+    left: 10rem;
+    top: 6rem;
+}
+
+.break-into .mains {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.semi-footer {
+    width: 90%;
+    margin: 5rem auto 3rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+footer {
+    width: 90%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .privacy {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.privacy a {
+    text-decoration: none;
+    color: #1b1a20;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    nav img {
+        width: 150px;
+    }
+
+    .menu ul {
+        display: none;
+    }
+
+    .enroll-now {
+        margin-left: 0;
+    }
+
+    .enroll-now img {
+        width: 60px;
+        margin-left: -29px;
+    }
+
+    .enroll-now a {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .hero {
+        grid-template-columns: 100%;
+        margin: 0 auto;
+    }
+
+    .img-male {
+        display: none;
+    }
+
+    .face {
+        display: none;
+    }
+
+    .hero-text-title {
+        font-size: 25px;
+        line-height: normal;
+        text-align: center;
+        width: 95%;
+        margin: auto;
+        font-weight: 600;
+    }
+
+    .line {
+        right: 3rem;
+        width: 130px !important;
+    }
+
+    .hero-text-info {
+        width: 100%;
+        font-weight: 400;
+    }
+
+    .enroll-red {
+        font-size: 18px;
+        letter-spacing: normal;
+        padding: .5rem 1rem;
+    }
+
+    .wir {
+        margin-top: 1rem;
+        width: 60px !important;
+        margin-left: 12rem;
+    }
+
+    .i4g {
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+
+    .i4g p {
+        font-size: 17px;
+        text-align: center;
+        color: #1b1a20;
+    }
+
+    .why-zuri-header {
+        grid-template-columns: 100%;
+    }
+
+    .section3wire {
+        width: 70px;
+        left: 12rem;
+    }
+
+    .why-zuri-header-text p {
+        font-size: 19px;
+    }
+
+    .why-zuri-header-text h2 {
+        font-size: 22px;
+        line-height: normal;
+    }
+
+    .why-zuri-star {
+        display: none;
+    }
+
+    .why-zuri-cards {
+        grid-template-columns: 100%;
+    }
+
+    .card {
+        padding: 2.1rem 2.8rem;
+    }
+
+    .card img {
+        width: 150px;
+    }
+
+    .card h1 {
+        font-size: 39px;
+    }
+
+    .card h2 {
+        font-size: 30px;
+        width: 54%;
+        line-height: normal;
+        margin: 1.5rem 0;
+    }
+
+    .card p {
+        margin-bottom: 1rem;
+    }
+
+    .training-container {
+        width: 90%;
+        grid-template-columns: 100%;
+    }
+
+    .get-started {
+        font-size: 17px;
+    }
+
+    .high-quality {
+        width: 90%;
+        font-size: 28px;
+    }
+
+    .promise {
+        width: 90%;
+    }
+
+    .advantages-card {
+        gap: .7rem;
+    }
+
+    .advantages-card img {
+        width: 45px;
+    }
+
+    .advantages-card p {
+        font-size: 13px;
+    }
+
+    .dot-training {
+        width: 50px;
+        bottom: -420px;
+        left: 0;
+    }
+
+    .training-img {
+        margin-bottom: 2rem;
+    }
+
+    .scope {
+        border-bottom: 1px solid #d6d6d6;
+    }
+
+    .scope-header {
+        width: 90%;
+    }
+
+    .scope-header p {
+        font-size: 17px;
+    }
+
+    .scope-header h2 {
+        font-size: 22px;
+    }
+
+    .scope-cards {
+        grid-template-columns: 100%;
+    }
+
+    .faq {
+        width: 90%;
+        border-bottom: 1px solid #d6d6d6;
+    }
+
+    .faq .section7wire {
+        width: 90px;
+        left: -2rem;
+    }
+
+    .faq-header p {
+        font-size: 18px;
+    }
+
+    .faq-header h2 {
+        font-size: 22px;
+        color: #1b1a20;
+        font-weight: 600;
+    }
+
+    .tweet-at-us {
+        flex-direction: column;
+        gap: .5rem;
+        margin-bottom: 2rem;
+    }
+
+    .tweet-at-us p {
+        font-size: 14px;
+    }
+
+    .program-structure {
+        width: 90%;
+        margin: 6rem auto;
+    }
+
+    .section7wire {
+        margin-left: 2rem;
+        width: 90px;
+        position: absolute;
+        left: -.5rem;
+        top: -3rem;
+    }
+
+    .section7star {
+        width: 50px;
+        position: absolute;
+        right: .5rem;
+        top: -2rem;
+    }
+
+    .program-structure-header p:first-child {
+        font-size: 17px;
+    }
+
+    .program-structure-header h2 {
+        font-size: 24px;
+    }
+
+    .program-structure-header p:last-child {
+        font-size: 14px;
+        width: 90%;
+        margin: 1.5rem auto;
+    }
+
+    .program-structure-cards {
+        grid-template-columns: 100%;
+        margin: 3rem 0;
+    }
+
+    .break-into h2 {
+        font-size: 27px;
+        width: 55%;
+        font-weight: 600;
+    }
+
+    .break-into .bend {
+        width: 120px;
+    }
+
+    .break-into .curve {
+        width: 100px;
+    }
+
+    .break-into .round {
+        width: 90px;
+        left: 3rem;
+        top: 2.5rem;
+    }
+
+    .break-into .mains {
+        width: 100px;
+    }
+
+    .semi-footer {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    footer {
+        flex-direction: column;
+    }
+
+    footer .privacy {
+        width: 90%;
+        border-top: 1px solid #d6d6d6;
+        margin: 2rem auto 0 auto;
+        padding: 1rem 0 0 0;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    nav img {
+        width: 150px;
+    }
+
+    .menu ul {
+        display: none;
+    }
+
+    .enroll-now {
+        margin-left: 0;
+    }
+
+    .enroll-now img {
+        width: 60px;
+        margin-left: -29px;
+    }
+
+    .enroll-now a {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .hero {
+        grid-template-columns: 100%;
+        margin: 0 auto;
+    }
+
+    .img-male {
+        display: none;
+    }
+
+    .face {
+        display: none;
+    }
+
+    .hero-text-title {
+        font-size: 35px;
+        line-height: normal;
+        text-align: center;
+        width: 95%;
+        margin: auto;
+        font-weight: 600;
+    }
+
+    .line {
+        right: 12rem;
+        width: 130px !important;
+    }
+
+    .hero-text-info {
+        width: 100%;
+        font-weight: 400;
+    }
+
+    .enroll-red {
+        font-size: 18px;
+        letter-spacing: normal;
+        padding: .5rem 1rem;
+    }
+
+    .wir {
+        margin-top: 1rem;
+        width: 80px !important;
+        margin-left: 12rem;
+    }
+
+    .i4g {
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+
+    .i4g p {
+        font-size: 17px;
+        text-align: center;
+        color: #1b1a20;
+    }
+
+    .why-zuri-header {
+        grid-template-columns: 100%;
+    }
+
+    .section3wire {
+        width: 70px;
+        left: 12rem;
+    }
+
+    .why-zuri-header-text p {
+        font-size: 19px;
+    }
+
+    .why-zuri-header-text h2 {
+        font-size: 22px;
+        line-height: normal;
+    }
+
+    .why-zuri-star {
+        display: none;
+    }
+
+    .why-zuri-cards {
+        grid-template-columns: 100%;
+    }
+
+    .card {
+        padding: 3.5rem 2.8rem;
+    }
+
+    .card img {
+        width: 170px;
+    }
+
+    .card h1 {
+        font-size: 55px;
+    }
+
+    .card h2 {
+        font-size: 30px;
+        width: 37%;
+        line-height: normal;
+        margin: 1.5rem 0;
+    }
+
+    .card p {
+        margin-bottom: 2rem;
+        font-size: 17px;
+    }
+
+    .training-container {
+        width: 90%;
+        grid-template-columns: 100%;
+    }
+
+    .get-started {
+        font-size: 17px;
+    }
+
+    .high-quality {
+        width: 90%;
+        font-size: 28px;
+    }
+
+    .promise {
+        width: 90%;
+    }
+
+    .advantages-card {
+        gap: .7rem;
+    }
+
+    .advantages-card img {
+        width: 45px;
+    }
+
+    .advantages-card p {
+        font-size: 13px;
+    }
+
+    .dot-training {
+        width: 70px;
+        bottom: -560px;
+        left: 0;
+    }
+
+    .training-img {
+        margin-bottom: 2rem;
+    }
+
+    .scope {
+        border-bottom: 1px solid #d6d6d6;
+    }
+
+    .scope-header {
+        width: 60%;
+    }
+
+    .scope-header p {
+        font-size: 17px;
+    }
+
+    .scope-header h2 {
+        font-size: 22px;
+    }
+
+    .scope-cards {
+        grid-template-columns: 100%;
+    }
+
+    .faq {
+        width: 90%;
+        border-bottom: 1px solid #d6d6d6;
+    }
+
+    .faq .section7wire {
+        width: 90px;
+        left: -2rem;
+    }
+
+    .faq-header p {
+        font-size: 18px;
+    }
+
+    .faq-header h2 {
+        font-size: 22px;
+        color: #1b1a20;
+        font-weight: 600;
+    }
+
+    .tweet-at-us {
+        flex-direction: column;
+        gap: .5rem;
+        margin-bottom: 2rem;
+    }
+
+    .tweet-at-us p {
+        font-size: 14px;
+    }
+
+    .program-structure {
+        width: 90%;
+        margin: 6rem auto;
+    }
+
+    .section7wire {
+        margin-left: 2rem;
+        width: 90px;
+        position: absolute;
+        left: -.5rem;
+        top: -3rem;
+    }
+
+    .section7star {
+        width: 50px;
+        position: absolute;
+        right: .5rem;
+        top: -2rem;
+    }
+
+    .program-structure-header p:first-child {
+        font-size: 17px;
+    }
+
+    .program-structure-header h2 {
+        font-size: 24px;
+    }
+
+    .program-structure-header p:last-child {
+        font-size: 14px;
+        width: 90%;
+        margin: 1.5rem auto;
+    }
+
+    .program-structure-cards {
+        grid-template-columns: 100%;
+        margin: 3rem 0;
+    }
+
+    .break-into h2 {
+        font-size: 35px;
+        width: 55%;
+        font-weight: 600;
+    }
+
+    .break-into .bend {
+        width: 120px;
+    }
+
+    .break-into .curve {
+        width: 100px;
+    }
+
+    .break-into .round {
+        width: 90px;
+        left: 3rem;
+        top: 2.5rem;
+    }
+
+    .break-into .mains {
+        width: 100px;
+    }
+
+    .semi-footer {
+        width: 90%;
+        margin: 5rem auto 3rem auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .socials {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    footer {
+        width: 90%;
+        margin: 1rem auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    footer .privacy {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .privacy a {
+        text-decoration: none;
+        color: #1b1a20;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    nav img {
+        width: 150px;
+    }
+
+    .menu ul {
+        display: none;
+    }
+
+    .enroll-now {
+        margin-left: 0;
+    }
+
+    .enroll-now img {
+        width: 60px;
+        margin-left: -29px;
+    }
+
+    .enroll-now a {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .hero {
+        grid-template-columns: 100%;
+        margin: 0 auto;
+    }
+
+    .img-male {
+        display: none;
+    }
+
+    .face {
+        display: none;
+    }
+
+    .hero-text-title {
+        font-size: 35px;
+        line-height: normal;
+        text-align: center;
+        width: 95%;
+        margin: auto;
+        font-weight: 600;
+    }
+
+    .line {
+        right: 2rem;
+        width: 170px !important;
+    }
+
+    .hero-text-info {
+        width: 55%;
+        font-weight: 400;
+    }
+
+    .enroll-red {
+        font-size: 18px;
+        letter-spacing: normal;
+        padding: .5rem 1rem;
+    }
+
+    .wir {
+        margin-top: 1rem;
+        width: 80px !important;
+        margin-left: 12rem;
+    }
+
+    .i4g {
+        grid-template-columns: 100%;
+        text-align: center;
+    }
+
+    .i4g p {
+        font-size: 17px;
+        text-align: center;
+        color: #1b1a20;
+    }
+
+    .why-zuri-header {
+        grid-template-columns: 100%;
+    }
+
+    .section3wire {
+        width: 110px;
+        top: -5rem;
+        left: 20rem;
+    }
+
+    .why-zuri-header-text p {
+        font-size: 19px;
+    }
+
+    .why-zuri-header-text h2 {
+        font-size: 22px;
+        line-height: normal;
+    }
+
+    .why-zuri-star {
+        display: none;
+    }
+
+    .why-zuri-cards {
+        grid-template-columns: 100%;
+    }
+
+    .card {
+        padding: 3.5rem 2.8rem;
+    }
+
+    .card img {
+        width: 170px;
+    }
+
+    .card h1 {
+        font-size: 55px;
+    }
+
+    .card h2 {
+        font-size: 30px;
+        width: 37%;
+        line-height: normal;
+        margin: 1.5rem 0;
+    }
+
+    .card p {
+        margin-bottom: 2rem;
+        font-size: 17px;
+    }
+
+    .training-container {
+        width: 90%;
+        grid-template-columns: 100%;
+    }
+
+    .get-started {
+        font-size: 17px;
+    }
+
+    .high-quality {
+        width: 90%;
+        font-size: 28px;
+    }
+
+    .promise {
+        width: 90%;
+    }
+
+    .advantages-card {
+        gap: .7rem;
+    }
+
+    .advantages-card img {
+        width: 45px;
+    }
+
+    .advantages-card p {
+        font-size: 13px;
+    }
+
+    .dot-training {
+        width: 70px;
+        bottom: -560px;
+        left: 0;
+    }
+
+    .training-img {
+        margin-bottom: 2rem;
+    }
+
+    .scope {
+        border-bottom: 1px solid #d6d6d6;
+    }
+
+    .scope-header {
+        width: 60%;
+    }
+
+    .scope-header p {
+        font-size: 17px;
+    }
+
+    .scope-header h2 {
+        font-size: 22px;
+        color: #1b1a20;
+    }
+
+    .scope-cards {
+        grid-template-columns: 100%;
+    }
+
+    .faq {
+        width: 90%;
+        border-bottom: 1px solid #d6d6d6;
+    }
+
+    .faq .section7wire {
+        width: 90px;
+        left: -2rem;
+    }
+
+    .faq-header p {
+        font-size: 18px;
+    }
+
+    .faq-header h2 {
+        font-size: 22px;
+        color: #1b1a20;
+        font-weight: 600;
+    }
+
+    .tweet-at-us {
+        flex-direction: column;
+        gap: .5rem;
+        margin-bottom: 2rem;
+    }
+
+    .tweet-at-us p {
+        font-size: 14px;
+    }
+
+    .program-structure {
+        width: 90%;
+        margin: 6rem auto;
+    }
+
+    .section7wire {
+        margin-left: 2rem;
+        width: 90px;
+        position: absolute;
+        left: -.5rem;
+        top: -3rem;
+    }
+
+    .section7star {
+        width: 50px;
+        position: absolute;
+        right: .5rem;
+        top: -2rem;
+    }
+
+    .program-structure-header p:first-child {
+        font-size: 17px;
+    }
+
+    .program-structure-header h2 {
+        font-size: 24px;
+    }
+
+    .program-structure-header p:last-child {
+        font-size: 14px;
+        width: 90%;
+        margin: 1.5rem auto;
+    }
+
+    .program-structure-cards {
+        grid-template-columns: 100%;
+        margin: 3rem 0;
+    }
+
+    .break-into h2 {
+        font-size: 35px;
+        width: 55%;
+        font-weight: 600;
+    }
+
+    .break-into .bend {
+        width: 120px;
+    }
+
+    .break-into .curve {
+        width: 100px;
+    }
+
+    .break-into .round {
+        width: 90px;
+        left: 3rem;
+        top: 2.5rem;
+    }
+
+    .break-into .mains {
+        width: 100px;
+    }
+
+    .semi-footer {
+        width: 90%;
+        margin: 5rem auto 3rem auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .socials {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    footer {
+        width: 90%;
+        margin: 1rem auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    footer .privacy {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .privacy a {
+        text-decoration: none;
+        color: #1b1a20;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .menu ul {
+        display: flex;
+    }
+
+    .enroll-now {
+        margin-left: 2rem;
+    }
+
+    .hero-text-title {
+        font-size: 45px;
+        font-weight: 700;
+    }
+
+    .line {
+        right: 2rem;
+        width: 250px !important;
+    }
+
+    .hero-text-info {
+        width: 68%;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .face {
+        display: block;
+    }
+
+    .wir {
+        margin-top: 1rem;
+        width: 80px !important;
+        margin-left: 6rem;
+    }
+
+    .i4g {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .i4g h2 {
+        text-align: left;
+        font-size: 21px;
+        line-height: normal;
+        color: #1b1a20;
+        font-weight: 600;
+    }
+
+    .i4g p {
+        text-align: right;
+    }
+
+    .why-zuri-header {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .why-zuri-star {
+        display: block;
+    }
+
+    .why-zuri-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .advantages {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .advantages-card p {
+        font-size: 16px;
+    }
+
+    .dot-training {
+        width: 90px;
+        bottom: -860px;
+        left: 0;
+    }
+
+    .scope-header {
+        width: 90%;
+    }
+
+    .scope-header p {
+        font-size: 19px;
+    }
+
+    .scope-header h2 {
+        font-size: 25px;
+    }
+
+    .scope-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .faq .section7wire {
+        width: 90px;
+        left: 8rem;
+        top: -3rem;
+    }
+
+    .tweet-at-us {
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    .tweet-at-us p {
+        font-size: 16px;
+    }
+
+    .program-structure-header h2 {
+        font-size: 28px;
+    }
+
+    .program-structure-header p:last-child {
+        font-size: 16px;
+    }
+
+    .program-structure-cards {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 5rem 0;
+    }
+
+    .break-into h2 {
+        font-size: 40px;
+        width: 55%;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .hero {
+        display: grid;
+        grid-template-columns: 25% 50% 25%;
+        gap: 1rem;
+        margin: 6rem auto;
+        width: 90%;
+        justify-items: end;
+    }
+
+    .hero img {
+        width: 100%;
+    }
+
+    .img-lady {
+        /* display: flex;
+        align-items: flex-end; */
+        margin-top: 5rem;
+    }
+
+    .hero-text {
+        text-align: center;
+        position: relative;
+    }
+
+    .hero-text-search {
+        color: #e7332b;
+        letter-spacing: 1px;
+    }
+
+    .hero-text-title {
+        font-size: 45px;
+        color: #1b1a20;
+        line-height: 59px;
+        margin: 1rem 0 0 0;
+    }
+
+    .line {
+        width: 180px !important;
+        position: absolute;
+        right: 7rem;
+    }
+
+    .hero-text-info {
+        margin: 2rem auto;
+        width: 65%;
+        color: #1b1a20;
+    }
+
+    .enroll-red {
+        background: #e7332b;
+        color: #fff;
+        border-radius: 30px;
+        padding: .5rem 1.6rem;
+        font-size: 20px;
+        letter-spacing: 2px;
+        cursor: pointer;
+        text-decoration: none;
+        margin-bottom: 5rem;
+    }
+
+    .hero-text-base {
+        width: 60%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .section1wire {
+        width: 40px !important;
+    }
+
+    .img-male {
+        display: block;
+    }
+
+    .wir {
+        margin-top: 5rem;
+        width: 70px !important;
+    }
+
+    .why-zuri-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        margin: 5rem 0;
+    }
+
+    .training-container {
+        width: 85%;
+        margin: 2rem auto;
+        padding: 3rem 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .training-img {
+        width: 100%;
+    }
+
+    .training-text {
+        padding: 2rem 0;
+        position: relative;
+    }
+
+    .get-started {
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .high-quality {
+        font-size: 35px;
+        width: 75%;
+        word-spacing: 2px;
+        margin: .6rem 0;
+    }
+
+    .promise {
+        width: 56%;
+        margin: 2rem 0 2rem 0;
+        word-spacing: 2px;
+    }
+
+    .advantages {
+        margin: 3rem 0 5rem 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+
+    .advantages-card {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        border: 2px solid #fff;
+        border-radius: 40px;
+        padding: .5rem 1rem;
+    }
+
+    .advantages-card img {
+        width: 55px;
+    }
+
+    .advantages-card p {
+        font-weight: 500;
+    }
+
+    .scope-header {
+        width: 48%;
+    }
+
+    .scope-header p {
+        color: #e7332b;
+        font-size: 23px;
+    }
+
+    .scope-header h2 {
+        font-size: 40px;
+        color: #1b1a20;
+        font-weight: 700;
+    }
+
+    .scope-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+        margin: 1rem 0;
+    }
+
+    .program-structure {
+        width: 75%;
+        margin: 6rem auto;
+        position: relative;
+    }
+
+    .section7wire {
+        margin-left: 4rem;
+        width: 130px;
+    }
+
+    .section7star {
+        position: absolute;
+        right: 0;
+        top: -3rem;
+        width: 130px;
+    }
+
+    .program-structure-header {
+        text-align: center;
+    }
+
+    .program-structure-header p:first-child {
+        color: #e7332b;
+        font-size: 24px;
+    }
+
+    .program-structure-header h2 {
+        color: #1b1a20;
+        font-size: 39px;
+        font-weight: 600;
+    }
+
+    .program-structure-header p:last-child {
+        font-size: 17px;
+        margin: 1.5rem 0;
+        color: #1b1a20;
+    }
+
+    .break-into h2 {
+        font-size: 50px;
+        width: 50%;
+        margin: 1rem auto 2rem auto;
+    }
+}
